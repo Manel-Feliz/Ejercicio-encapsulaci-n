@@ -1,0 +1,49 @@
+
+private clase Persona {
+  priv var int edad = 0
+
+    public var  getEdad()
+      return this.edad {
+    }
+
+    public var setEdad() {
+      this.edad = edad
+    }    
+
+
+  priv var string nombre = "String"
+
+    public var getNomobre() {
+      return this.nombre 
+    }
+
+    public var setNombre() {
+      this.nombre = nombre
+    }
+
+
+  priv var int telefono = 111222333
+
+    public var getTelefono() {
+      return this.telefono
+    }
+
+    public var setTelefono() {
+      this.telefono = telefono
+    }
+}
+
+  MAIN {
+
+  Persona humano = new Persona()
+
+  humano.setEdad(20)
+  humano.setNombre(Nicaa)
+  humano.setTelefono(635222333)
+    
+
+        
+        System.out.println("Edad: " + humano.getEdad());
+        System.out.println("Nombre: " + humano.getNombre());
+        System.out.println("Telefono: " + humano.getTelefono());
+  }
